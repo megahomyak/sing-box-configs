@@ -1,0 +1,21 @@
+{
+    "outbounds": [
+        {
+            "type": "http",
+            "server": "IP_HERE",
+            "server_port": PORT_HERE,
+            "username": "USERNAME_HERE",
+            "password": "PASSWORD_HERE"
+        }
+    ],
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "listen_port": 2334,
+            "type": "mixed"
+        }
+    ],
+    "log": {
+        "level": "error"
+    }
+}
