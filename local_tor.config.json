@@ -1,0 +1,19 @@
+{
+    "outbounds": [
+        {
+            "type": "socks",
+            "server": "localhost",
+            "server_port": 9050
+        }
+    ],
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "listen_port": 2334,
+            "type": "mixed"
+        }
+    ],
+    "log": {
+        "level": "error"
+    }
+}
