@@ -8,6 +8,10 @@
     ],
     "inbounds": [
         {
+            "type": "tun",
+            "inet4_address": "172.19.0.1/30"
+        },
+        {
             "listen": "127.0.0.1",
             "listen_port": 2334,
             "type": "mixed"
